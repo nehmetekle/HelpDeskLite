@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/new_ticket" android:textAppearance="?android:attr/textAppearanceLarge" />
+            <EditText android:id="@+id/titleInput" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="@string/ticket_title"
+                android:inputType="textCapSentences" />
+            <EditText android:id="@+id/descriptionInput" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="@string/description"
+                android:inputType="textMultiLine|textCapSentences" android:minLines="3" android:gravity="top" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:labelFor="@id/priorityInput" android:text="@string/priority" />
+            <Spinner android:id="@+id/priorityInput" android:layout_width="match_parent"
+                android:layout_height="48dp" android:spinnerMode="dropdown" />
+            <Button android:id="@+id/saveTicket" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/save_ticket" />
+            <TextView android:id="@+id/saveError" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:accessibilityLiveRegion="polite" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

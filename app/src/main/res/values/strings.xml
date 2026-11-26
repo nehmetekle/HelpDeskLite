@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HelpDesk Lite</string>
+    <string name="new_ticket">New ticket</string>
+    <string name="all_statuses">All statuses</string>
+    <string name="filter_label">Filter by status</string>
+    <string name="no_tickets">No tickets to display.</string>
+    <string name="ticket_title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="save_ticket">Save ticket</string>
+    <string name="title_error">Enter a title.</string>
+    <string name="description_error">Enter at least 10 characters.</string>
+    <string name="save_error">Could not save the ticket. Try again.</string>
+    <string name="start_ticket">Start work</string>
+    <string name="resolve_ticket">Resolve</string>
+</resources>
